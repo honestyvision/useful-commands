@@ -21,3 +21,12 @@ The plus sign forces the remote branch to accept your rewritten history, otherwi
 #### If the branch has not been pushed to the remote:
 
 ```git push origin name-of-branch```
+
+
+## Unstage files
+
+```git reset HEAD -- .```
+
+## Creating a Git submodule
+
+```git submodule add [Git repo link] [name of target folder to be created]```
